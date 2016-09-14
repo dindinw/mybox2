@@ -24,13 +24,12 @@ import (
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
 	Use:   "mybox2",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
-examples and usage of using your application. For example:
+	Short: "A command-line tool to help developer to build, manage, custimoze and preversion VMs",
+	Long: `The MYBOX toolset is command-line tool to help developer to build, manage, 
+	custimoze and preversion VMs, It provide both of file deployment way 
+	like Vagrant, and fine-grained control commands to the single VM.
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	It's support Oralce VirtualBox for local virtualization provider now.`,
 // Uncomment the following line if your bare application
 // has an action associated with it:
 //	Run: func(cmd *cobra.Command, args []string) { },
